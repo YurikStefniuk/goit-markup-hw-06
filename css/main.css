@@ -549,6 +549,12 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
+.telegram-send {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
 /* пробный модальное-окно*/
 .backdrop {
   position: fixed;
