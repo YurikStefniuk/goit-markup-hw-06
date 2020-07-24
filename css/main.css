@@ -194,14 +194,19 @@ img {
   color: var(--text-color);
 }
 .btn-decoration {
+  color: var(--text-color);
   background-color: var(--hover-focus-color);
-  display: inline-block;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: 11px 34px;
-  min-width: 130px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
   text-align: center;
-  text-decoration: none;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
 .team-name {
   font-weight: 500;
@@ -387,8 +392,8 @@ img {
   background-color: var(--footer-color);
 }
 .footer-addres {
-  justify-content: flex-start;
-  width: calc((100% - 60px) / 4);
+  display: block;
+  width: calc((50% - 45px) / 2);
 }
 .footer-link {
   color: var(--text-color);
@@ -518,12 +523,31 @@ img {
   display: flex;
 }
 .join-div {
-  justify-content: center;
-  width: calc((100% - 60px) / 4);
+  display: block;
+  width: calc((50% - 45px) / 2);
 }
-.share-input {
-  width: calc((100% - 60px) / 2);
+.share-div {
+  width: calc((50%) / 2);
+}
+.form-join {
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.form-footer {
   display: flex;
+}
+.input-footer {
+  background-color: #2f303a;
+  min-width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 /* пробный модальное-окно*/
 .backdrop {
